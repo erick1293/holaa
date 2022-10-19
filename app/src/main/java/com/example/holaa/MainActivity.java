@@ -2,12 +2,15 @@ package com.example.holaa;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.security.Principal;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +36,9 @@ Button btnlogin ; EditText edCorreo, edPass;
                 String   pass = edPass.getText().toString();
                 if (correo.equals("admin.admin.cl") && pass.equals("admin")){
                     Toast.makeText(MainActivity.this, "estoy loguiado", Toast.LENGTH_SHORT).show();
+               Intent i = new Intent(MainActivity.this , principalActivity.class);
+               startActivity(i);
+
                 }else{
                     Toast.makeText(MainActivity.this, "no loguiaste", Toast.LENGTH_SHORT).show();
                 }
