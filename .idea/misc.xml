@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/COP412L/AndroidStudioProjects/holaa/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.25" />
         <entry key="..\:/Users/COP412L/AndroidStudioProjects/holaa/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/COP412L/AndroidStudioProjects/holaa/app/src/main/res/layout/activity_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/COP412L/AndroidStudioProjects/holaa/app/src/main/res/layout/content_crear_cuenta.xml" value="0.15760869565217392" />
       </map>
     </option>
   </component>

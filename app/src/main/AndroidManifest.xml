@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Holaa">
         <activity
+            android:name=".crearCuenta"
+            android:exported="false"
+            android:label="@string/title_activity_crear_cuenta"
+            android:theme="@style/Theme.Holaa.NoActionBar" />
+        <activity
             android:name=".principalActivity"
             android:exported="false" />
         <activity

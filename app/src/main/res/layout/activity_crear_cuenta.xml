@@ -4,14 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".crearCuenta">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="nombre"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="nombre" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="apellido"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="apellido" />
+
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -21,15 +57,16 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/etCorreo"
+        android:id="@+id/etCorreo3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/correo"
         android:inputType="textEmailAddress"
         android:textSize="25sp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -39,29 +76,18 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/etPass"
+        android:id="@+id/etPass3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/pass"
         android:inputType="textPassword"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/btnlogin"
+        android:id="@+id/btnlogin2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="@string/entrar" />
-
-    <TextView
-        android:id="@+id/cCuenta"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoText="false"
-        android:gravity="center"
-        android:shadowColor="#020202"
-        android:text="click para crear cuenta"
-        android:textColor="#130F0F"
-        android:textColorHighlight="#E60C0C"
-        android:textSize="20sp" />
 </LinearLayout>
