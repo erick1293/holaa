@@ -4,12 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:hapticFeedbackEnabled="false"
     android:orientation="vertical"
     tools:context=".principalActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/A.riesgo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:autoText="true"
+        android:text="Analisis de riesgo" />
+
+    <TextView
+        android:id="@+id/checklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checklist de herrramienta" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asistencia semanal" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asistencia diaria" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checklist Arnes" />
 </LinearLayout>

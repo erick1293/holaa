@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="10dp"
     android:layout_marginRight="10dp"
+    android:background="#8d4925 "
+    android:backgroundTint="#8d4925 "
+    android:backgroundTintMode="src_over"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -51,11 +54,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:backgroundTint="@android:color/holo_red_dark"
         android:text="@string/entrar" />
 
     <TextView
         android:id="@+id/cCuenta"
-        android:layout_width="match_parent"
+        android:layout_width="284dp"
         android:layout_height="wrap_content"
         android:autoText="false"
         android:gravity="center"
