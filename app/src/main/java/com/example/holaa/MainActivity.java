@@ -34,7 +34,7 @@ Button btnlogin ; EditText edCorreo, edPass;
                 edPass = (EditText) findViewById(R.id.etPass);
                   String   correo = edCorreo.getText().toString();
                 String   pass = edPass.getText().toString();
-                if (correo.equals("admin.admin.cl") && pass.equals("admin")){
+                if (correo.equals("admin") && pass.equals("admin")){
                     Toast.makeText(MainActivity.this, "estoy loguiado", Toast.LENGTH_SHORT).show();
                Intent i = new Intent(MainActivity.this , principalActivity.class);
                startActivity(i);

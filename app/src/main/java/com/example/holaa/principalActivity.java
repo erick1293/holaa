@@ -31,13 +31,13 @@ public class principalActivity extends AppCompatActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.menuOp1:
-                Toast.makeText(this, "Opcion 1", Toast.LENGTH_SHORT).show();
+                getSupportFragmentManager().beginTransaction().replace(R.id.containerFragmento,fragment_registrar.class,null).commit();
                 return true;
             case R.id.menuOp2:
                 getSupportFragmentManager().beginTransaction().replace(R.id.containerFragmento,fragment_alumnos.class,null).commit();
                 return true;
             case R.id.menuOp3:
-                Toast.makeText(this, "Opcion 3", Toast.LENGTH_SHORT).show();
+                getSupportFragmentManager().beginTransaction().replace(R.id.containerFragmento,fragment_configuraciones.class,null).commit();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
