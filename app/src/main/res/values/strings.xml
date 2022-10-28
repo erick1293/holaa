@@ -17,4 +17,9 @@
     <string name="textoF1">Hola registro</string>
     <string name="textoF2">Hola configuracion</string>
     <string name="textoF3">Hola Alumnos</string>
+    <string name="textotF1">tab1</string>
+    <string name="textotF2">tab 2</string>
+    <string name="textotF3">tab3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
