@@ -22,4 +22,8 @@
     <string name="textotF3">tab3</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+<!-- tab2 registro del trabajador-->
+    <string name="textoNmbreTrabajador">Nombre</string>
+    <string name="textoApellidoTrabajador">Apellido</string>
+    <string name="textoEdadTrabajador">Edad</string>
 </resources>

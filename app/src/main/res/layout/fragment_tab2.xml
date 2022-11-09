@@ -5,10 +5,55 @@
     android:layout_height="match_parent"
     tools:context=".Tab2Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/textotF2" />
+        android:gravity="center"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoNmbreTrabajador" />
+
+        <EditText
+            android:id="@+id/nombreTrabajador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoApellidoTrabajador" />
+
+        <EditText
+            android:id="@+id/apellidoTrabajador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textoEdadTrabajador" />
+
+        <EditText
+            android:id="@+id/edadTrabajador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegTrab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </LinearLayout>
 </FrameLayout>
