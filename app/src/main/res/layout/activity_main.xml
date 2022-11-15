@@ -4,18 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
+    android:background="#6C3B2A"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:backgroundTintMode="src_over"
+        android:hapticFeedbackEnabled="false"
+        app:srcCompat="@drawable/codelco2" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
         android:text="@string/correo"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -24,17 +33,20 @@
         android:id="@+id/etCorreo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="admin"
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
         android:text="@string/pass"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -43,15 +55,44 @@
         android:id="@+id/etPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="admin"
         android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
         android:text="@string/entrar" />
+
+    <TextView
+        android:id="@+id/OlClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:text="@string/OlvideClave"
+        android:textColor="#CDCDCD"
+        android:textColorHint="#736F6F"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Ccuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:clickable="true"
+        android:text="@string/Ccuenta"
+        android:textColor="#CDCDCD"
+        tools:ignore="TouchTargetSizeCheck" />
+
 </LinearLayout>

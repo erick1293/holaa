@@ -2,8 +2,18 @@
     <string name="app_name">holaa</string>
     <string name="correo">Correo</string>
     <string name="pass">Password</string>
-    <string name="entrar">Log in</string>
+    <string name="entrar">Conectar</string>
+    <string name="Ccuenta">Crear Cuenta</string>
+    <string name="OlvideClave">Olvide La CLave</string>
     <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="Analisis">Analisis de Riesgo</string>
+    <string name="checklistH">Checklist de Herramienta</string>
+    <string name="asistenciaS">Asistencia Semanal</string>
+    <string name="asistenciaD">Asistencia Diaria</string>
+    <string name="ChecklistA">Checklist de Arnes</string>
+
+
 
     <string name="title_activity_toolbar">toolbar</string>
     <!-- Strings used for fragments for navigation -->
@@ -22,7 +32,7 @@
     <string name="textotF3">tab3</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-<!-- tab2 registro del trabajador-->
+    <!-- tab2 registro del trabajador-->
     <string name="textoNmbreTrabajador">Nombre</string>
     <string name="textoApellidoTrabajador">Apellido</string>
     <string name="textoEdadTrabajador">Edad</string>

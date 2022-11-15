@@ -10,6 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Holaa">
         <activity
+            android:name=".OlvideCLave"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CrearCuenta"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".principalActivity"
             android:exported="false" />
         <activity

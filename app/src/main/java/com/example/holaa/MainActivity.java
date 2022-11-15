@@ -15,14 +15,26 @@ import java.security.Principal;
 public class MainActivity extends AppCompatActivity {
 
 Button btnlogin ; EditText edCorreo, edPass;
+TextView Ccuenta,OlClave;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         llamarbtnlogin();
+        llamarCrearCuenta();
+        llamarCrearCuenta();
+    }
+    public void llamarCrearCuenta(){
+        Ccuenta = (TextView) findViewById(R.id.Ccuenta);
+        Intent o = new Intent(this,CrearCuenta.class);
+        startActivity(o);
 
-
+    }
+    public void llamarOlvidelaclave(){
+OlClave= (TextView) findViewById(R.id.OlClave);
+        Intent u = new Intent(this,OlvideCLave.class);
+        startActivity(u);
     }
     public void llamarbtnlogin(){
         btnlogin = (Button)  findViewById(R.id.btnlogin);
