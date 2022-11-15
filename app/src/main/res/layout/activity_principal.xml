@@ -42,19 +42,19 @@
                 android:id="@+id/tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/textotF1" />
+                android:icon="@drawable/homa" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tab2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/textotF2" />
+                android:icon="@drawable/mapa" />
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tab3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/textotF3" />
+                android:icon="@drawable/user" />
         </com.google.android.material.tabs.TabLayout>
     </LinearLayout>
 

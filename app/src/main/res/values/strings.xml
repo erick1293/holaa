@@ -36,4 +36,12 @@
     <string name="textoNmbreTrabajador">Nombre</string>
     <string name="textoApellidoTrabajador">Apellido</string>
     <string name="textoEdadTrabajador">Edad</string>
+    <!--  registro del trabajador-->
+    <string name="regNombre">Nombre</string>
+    <string name="regApellido">Apellido</string>
+    <string name="regCorreo">Correo</string>
+    <string name="regClave">Clave</string>
+
+
+
 </resources>
